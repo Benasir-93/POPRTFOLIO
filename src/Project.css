@@ -1,0 +1,5 @@
+.bgproject{
+    background-image: url("/image/project.jpg");
+    background-size: cover; 
+        background-repeat: no-repeat;
+}

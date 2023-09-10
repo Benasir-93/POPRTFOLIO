@@ -1,0 +1,58 @@
+body{
+    margin: 0 ;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.image-container {
+    position: relative; 
+  }
+  
+  .image-text {
+    position: absolute; 
+    top: 45%; 
+    left: 25%; 
+    transform: translate(-50%, -50%);
+    background-color: rgba(0, 0, 0, 0.5); 
+    color: white; 
+    padding: 10px; 
+    border-radius: 5px; 
+  }
+  
+  /* Media query for screens with a maximum width of 768px (small devices) */
+@media (max-width: 768px) {
+    .image-text {
+      top: 25%; 
+      padding: 40px; 
+      font-size: 14px;
+      margin: 10px;
+    }
+/* 
+    .background-image-container {
+        position: relative;
+        background-image: url("/image/first.jpg");
+        background-size: cover; 
+        background-repeat: no-repeat;
+        background-position: center center; 
+        width: 50vw; 
+        height: 50vh; 
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      } */
+  }
+  .background-image-container {
+    position: relative;
+    background-image: url("/image/first.jpg");
+    background-size: cover; /* Cover the entire container */
+    background-repeat: no-repeat;
+    background-position: center center; /* Center the background image */
+    width: 100vw; /* Set the container width to the viewport width */
+    height: 100vh; /* Set the container height to the viewport height */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+ 

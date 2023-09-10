@@ -1,0 +1,5 @@
+.aboutbg{
+    background-image: url("/image/tech.jpg");
+    background-size: cover; 
+        background-repeat: no-repeat;
+}
